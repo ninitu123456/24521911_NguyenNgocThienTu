@@ -9,3 +9,9 @@
 - Add a global CSS reset.
 - Use CSS variables for colors.
 - Do not include JavaScript in this task.
+## T-02B: 2D Grid Layout
+- Implement a responsive layout using CSS Grid.
+- Use a single-column layout on mobile.
+- Use a two-column layout on larger screens.
+- Prevent horizontal scrolling at 375px.
+- Do not include JavaScript in this task.
