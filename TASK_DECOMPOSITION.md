@@ -20,3 +20,27 @@
 - Persist the selected theme using localStorage key "theme".
 - Use CSS variables for theme colors.
 - Ensure theme toggling produces zero console errors.
+## T-03: Modular Component Architecture
+
+### T-03A: Hero Section
+- Create a semantic hero section.
+- Add a high-resolution portrait with explicit width and height.
+- Add a headline and short personal pitch.
+
+### T-03B: Theme Switcher
+- Implement an accessible theme toggle button.
+- Use aria-pressed to expose the current state.
+- Update the theme icon dynamically.
+
+### T-03C: Skills Matrix
+- Group skills by category.
+- Display skill badges using CSS Grid.
+
+### T-03D: Project Cards
+- Build self-contained project components using article elements.
+- Include project title, technology tags, description, and links.
+
+### T-03E: Contact Form
+- Build a native HTML contact form.
+- Use native HTML validation.
+- Handle form state with client-side JavaScript.

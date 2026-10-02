@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#main">Skip to Content</a>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <button
+    id="theme-toggle"
+    type="button"
+    aria-pressed="false"
+    aria-label="Enable dark mode"
+>
+    <span class="theme-icon" aria-hidden="true">🌙</span>
+    <span class="theme-label">Dark Mode</span>
+</button>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <main id="main">
+
+    <section id="hero" class="hero">
+
+        <img
+            src="images/Assassin's_Creed_Rogue_-_poster.jpg"
+            alt="Profile portrait"
+            width="600"
+            height="600"
+        >
+
+        <section class="hero-content">
+            <h2>Hello, I'm Your Name</h2>
+
+            <p>
+                I am a web developer focused on building accessible,
+                responsive, and user-friendly web applications.
+            </p>
+        </section>
+
+    </section>
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <section class="skills-grid">
+
+        <article class="skill-category">
+            <h3>Frontend</h3>
+
+            <ul class="skill-list">
+                <li class="badge">HTML</li>
+                <li class="badge">CSS</li>
+                <li class="badge">JavaScript</li>
+            </ul>
+        </article>
+
+        <article class="skill-category">
+            <h3>Backend</h3>
+
+            <ul class="skill-list">
+                <li class="badge">Node.js</li>
+                <li class="badge">Oracle</li>
+                <li class="badge">SQL</li>
+            </ul>
+        </article>
+
+        <article class="skill-category">
+            <h3>Tools</h3>
+
+            <ul class="skill-list">
+                <li class="badge">Git</li>
+                <li class="badge">GitHub</li>
+                <li class="badge">VS Code</li>
+            </ul>
+        </article>
+
+    </section>
+
+</section>
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <section class="projects-grid">
+
+        <article
+            class="project-card"
+            data-category="frontend"
+        >
+
+            <header class="card-header">
+
+                <h3>Distributed State Engine</h3>
+
+                <span class="badge">
+                    TypeScript
+                </span>
+
+            </header>
+
+            <p>
+                Lightweight event bus built without external libraries.
+            </p>
+
+            <footer class="card-footer">
+
+                <a
+                    href="#"
+                    aria-label="View State Engine repository"
+                >
+                    Source Code
+                </a>
+
+            </footer>
+
+        </article>
+
+    </section>
+
+</section>
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form id="contact-form">
+
+        <label for="name">Name</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            required
+        >
+
+        <label for="email">Email</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+        >
+
+        <label for="message">Message</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+        <p
+            id="form-status"
+            aria-live="polite"
+        ></p>
+
+    </form>
+
+</section>
+</main>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
