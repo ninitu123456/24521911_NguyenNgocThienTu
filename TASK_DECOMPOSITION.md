@@ -15,3 +15,8 @@
 - Use a two-column layout on larger screens.
 - Prevent horizontal scrolling at 375px.
 - Do not include JavaScript in this task.
+## T-02C: Theme Engine
+- Implement light and dark theme switching.
+- Persist the selected theme using localStorage key "theme".
+- Use CSS variables for theme colors.
+- Ensure theme toggling produces zero console errors.
